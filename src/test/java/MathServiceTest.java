@@ -19,4 +19,12 @@ public class MathServiceTest {
         int result = this.mathService.sumar(a,b);
         assertEquals(result, 9);
     }
+
+    @Test
+    public void testResta(){
+        int a = 5;
+        int b = 4;
+        int result = this.mathService.restar(a,b);
+        assertEquals(result, 9);
+    }
 }
